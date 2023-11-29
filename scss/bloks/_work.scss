@@ -1,0 +1,52 @@
+.section-work {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700px;
+}
+
+.we-du-list {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 94px;
+}
+
+.we-du-item {
+    position: relative;
+    height: 294px;
+    z-index: 1;
+}
+
+.work-title {
+    position: absolute;
+    background-color: #2F303ACC;
+    bottom: 0;
+}
+
+.desktop {
+    padding: 27px 118px;
+}
+
+.mobile {
+    padding: 27px 122.53px;
+}
+
+.design {
+    padding: 27px 106.2px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}

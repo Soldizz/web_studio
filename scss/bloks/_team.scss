@@ -1,0 +1,66 @@
+.section-team {
+    background-color: #f5f4fa;
+}
+
+.team-list {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.card-box {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.team-item {
+    height: 430px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team-position {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card-box {
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.icon-list {
+    display: flex;
+    width: 205px;
+    justify-content: space-between;
+}
+
+.icon-link {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    fill: #afb1b8;
+    border-radius: 50%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+    background-color: #2196f3;
+    fill: white;
+}

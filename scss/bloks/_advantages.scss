@@ -1,0 +1,19 @@
+.advantages {
+    display: none;
+}
+
+.advantages-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.advantages-desc {
+    margin-top: 10px;
+    // color: #757575;
+    color:var(--text-color);
+}
+
+
+
+
