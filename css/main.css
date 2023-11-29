@@ -51,6 +51,12 @@ body {
   padding: 0 15px;
 }
 
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .text {
   color: var(--title-color);
 }
@@ -79,6 +85,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   font-weight: 700;
+  font-size: 26px;
 }
 
 .logo-web {
@@ -180,6 +187,7 @@ body {
   }
 }
 .hero-title {
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
