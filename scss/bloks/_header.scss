@@ -76,9 +76,11 @@
 }
 
 .list-contacs {
+    display: flex;
+    margin-left: auto;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: auto;
+
 }
 
 .menu-contact + .menu-contact {
