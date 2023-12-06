@@ -1,8 +1,19 @@
 .container {
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+
+    @media screen and (min-width: 480px){
+        max-width: 480px;
+    } 
+        @media screen and (min-width: 768px){
+        max-width: 768px;
+    } 
+        @media screen and (min-width: 1200px){
+        max-width: 1200px;
+    } 
 }
+
 
 .text {
     color: var(--title-color);
@@ -10,19 +21,40 @@
 
 .section {
     padding: 94px 0;
-    max-width: 1600px;
     margin: 0 auto;
 }
+
 
 .header {
-    padding: 24px 0;
-    max-width: 1600px;
+    padding: 16px 0;
     margin: 0 auto;
-}
 
+    @media screen and (min-width:768px) {
+        padding: 26px 0;
+    }
+    @media screen and (min-width:1200px) {
+        padding: 24px 0;
+    }
+}
+.header-burger{
+    padding: 0;
+    border: none;
+    background: var( --text-color-white);
+    margin-left: auto;
+
+    @media screen and (min-width:768px){
+        display: none;
+    }
+}
 .header-position {
     display: flex;
     align-items: center;
+    
+    @media screen and (min-width:768px){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 .logo {
@@ -49,12 +81,36 @@
 }
 
 .list {
-    display: flex;
-    width: 280px;
-    justify-content: space-between;
-    margin-left: 93px;
-}
+    // display: flex;
+    display: none;
+    // width: 280px;
+    // justify-content: space-between;
+    // margin-left: 93px;
 
+    @media screen and (min-width:768px) {
+        display: flex;
+        margin-left: 88px;
+        width: 280px;
+        justify-content: space-between;
+    }
+    @media screen and (min-width:1200px) {
+        margin-left: 93px;
+    }
+}
+.list-contacs {
+    // display: flex;
+    display: none;
+    // margin-left: auto;
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        margin-left: auto;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
 .list-item {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -75,13 +131,7 @@
     transform: translate(0px, 27px);
 }
 
-.list-contacs {
-    display: flex;
-    margin-left: auto;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
 
 .menu-contact + .menu-contact {
     margin-left: 50px;
